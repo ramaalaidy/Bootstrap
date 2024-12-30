@@ -1,0 +1,14 @@
+.img{
+    width: 500px;
+    height: 500px;
+
+    background-image: url('../673f80eaa51da879844d0c6d1371bce2.jpg');
+}
+@media screen and (max-width: 600px) {
+    .img{
+       background-image: url('../673f80eaa51da879844d0c6d1371bce2.jpg');
+       width: 340px;
+    height: 200px;
+    ;
+    }
+}

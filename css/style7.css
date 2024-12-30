@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+gap: 80px
+;
+}
+.yellow{
+    background-color: #fff3cd;
+    color: #736635;
+    padding: 20px;
+    border-radius: 5px;
+}

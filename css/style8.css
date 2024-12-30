@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+     }
+    .blue{
+        width: 100px;
+    background-color: #2196f3;
+    height: 44px;
+    }
+    .white{
+    background-color: #f1f1f1;
+    flex-grow: 1;
+    width: 100px;
+    height: 44px;
+    }
+    .green{
+    background-color: #04aa6d;
+    width: 100px;
+    height: 44px;
+    }
+    @media (max-width: 600px){
+    .container{
+      display: flex;
+      flex-direction: column;
+    
+    }
+    .container div{
+        width: 100%;
+    }
+    }
